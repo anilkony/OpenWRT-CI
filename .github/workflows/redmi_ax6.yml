@@ -2,7 +2,7 @@
 # Copyright (C) 2026 VIKINGYFY
 
 #CI项目
-name: ax6
+name: redmi_ax6
 
 #CI计划
 on:
@@ -35,7 +35,7 @@ jobs:
       fail-fast: false
       #max-parallel: 3
       matrix:
-        CONFIG: [IPQ807X-WIFI-YES]
+        CONFIG: [redmi_ax6]
         SOURCE: [VIKINGYFY/immortalwrt]
         BRANCH: [main]
 
@@ -49,7 +49,7 @@ jobs:
       #默认主机名
       WRT_NAME: Redmi-AX6
       #默认WIFI名称
-      WRT_SSID: OWRT
+      WRT_SSID: VIKINGYFY
       #默认WIFI密码
       WRT_WORD: 12345678
       #默认地址
